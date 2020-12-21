@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #000000;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -202,6 +202,9 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+        margin-top: 2em;
+        margin-left: 3em;
+        margin-right: 3em;
 	}
 
     p2 {
@@ -1650,13 +1653,29 @@ input, select, textarea {
 		}
 
 		.image.left {
-			float: left;
-			margin: 0 2em 2em 0;
+			float: block;
+            width: 30%;
+            height:30%
+            margin: 0 0 0 0;
+		}
+
+        .image.left2 {
+			float: block;
+            width: 30%;
+            height:30%
+            margin: 0 0 0 0;
+		}
+
+        .image.right {
+			float: block;
+            width: 50%;
+            margin: 0 0 0 0;
 		}
 
 		.image.centered {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 2em 2em 0;
+            width: 50%;
 		}
 
 			.image.centered img {
@@ -2107,7 +2126,10 @@ input, select, textarea {
 /* Articles */
 
 	body > article {
-		margin-bottom: 0;
+		margin-bottom: 8;
+        margin-left: 30 px;
+        margin-top: 8;
+        margin-right: 30 px;
 	}
 
 	#top {
